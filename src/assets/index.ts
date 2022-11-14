@@ -13,6 +13,13 @@ import htmlIcon from './images/html.png'
 import reactIcon from './images/react.png'
 import reduxIcon from './images/redux.png'
 
+// pages
+
+import about01 from './images/about01.png'
+import about02 from './images/about02.png'
+import about03 from './images/about03.png'
+import about04 from './images/about04.png'
+
 export {
   bgCircle,
   logoIcon,
@@ -25,4 +32,8 @@ export {
   sassIcon,
   typescriptIcon,
   vueIcon,
+  about01,
+  about02,
+  about03,
+  about04,
 }
