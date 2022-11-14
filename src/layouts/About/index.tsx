@@ -23,8 +23,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Eu sei que um <span>bom design</span> <br /> significa{' '}
-        <span>Bons Negócioa</span>
+        O que eu <span>Posso</span> <br /> fazer para seu <span> Negócio</span>
       </h2>
 
       <div className="app__profiles">
@@ -57,4 +56,4 @@ const About = () => {
   )
 }
 
-export default AppWrapper(About, 'about')
+export default AppWrapper(About, 'sobre')

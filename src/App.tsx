@@ -1,5 +1,5 @@
 import { Navbar } from './components/Navbar'
-import { About, Footer, Header, Skills, Testimonial, Work } from './layouts'
+import { About, Footer, Header, Projects, Skills, Testimonial } from './layouts'
 import './styles/app.scss'
 const App = () => {
   return (
@@ -7,7 +7,7 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
-      <Work />
+      <Projects />
       <Skills />
       <Testimonial />
       <Footer />
