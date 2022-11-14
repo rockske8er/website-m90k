@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import './header.scss'
 
+import AppWrapper from './../AppWrapper'
+
 import {
   profileImage,
   bgCircle,
@@ -19,10 +21,9 @@ const scaleVariants = {
     },
   },
 }
-
-export function Header() {
+const Header = () => {
   return (
-    <header id="home" className="app__header app__flex">
+    <header className="app__header app__flex">
       <motion.div
         className="app__header-info"
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -74,3 +75,5 @@ export function Header() {
     </header>
   )
 }
+
+export default AppWrapper(Header, 'home')

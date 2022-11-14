@@ -13,12 +13,14 @@ export function Navbar() {
         <img src={logoIcon} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
-            <div />
-            <a href={`#${item}`}>{item}</a>
-          </li>
-        ))}
+        {['home', 'sobre', 'projetos', 'skills', 'depoimentos', 'contato'].map(
+          (item) => (
+            <li className="app__flex p-text" key={`link-${item}`}>
+              <div />
+              <a href={`#${item}`}>{item}</a>
+            </li>
+          ),
+        )}
       </ul>
 
       <div className="app__navbar-menu">
@@ -31,7 +33,14 @@ export function Navbar() {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+              {[
+                'home',
+                'sobre',
+                'projetos',
+                'skills',
+                'depoimentos',
+                'contato',
+              ].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

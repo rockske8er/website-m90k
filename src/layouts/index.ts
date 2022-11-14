@@ -1,6 +1,6 @@
-import { Header } from './Header'
+import Header from './Header'
 import { Footer } from './Footer'
-import { About } from './About'
+import About from './About'
 import { Skills } from './Skills'
 import { Testimonial } from './Testimonial'
 import { Work } from './Work'
